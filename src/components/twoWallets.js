@@ -11,7 +11,7 @@ const twoWallets = () => {
       </div>
       <div id="descriptionOne">
         <div className="container">
-          <h1>The Wallet, Redefined</h1>
+          <h1>The Wallet, Redefined1</h1>
 
           <p>The best way to carry your cash and cards since, well, ever.</p>
           <button>Shop Now</button>
