@@ -2,6 +2,7 @@ import React from "react"
 import Image5 from "../components/image5"
 import Image6 from "../components/image6"
 import Image7 from "../components/image7"
+import TestIMG from "../images/aluminum slide.jpg"
 import "./threeWallets.css"
 const threeWallets = () => {
   return (
