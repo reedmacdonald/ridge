@@ -1,5 +1,5 @@
 import React from "react"
-import Image2 from "../components/image2"
+
 import Image3 from "../components/image3"
 import "./twoWallets.css"
 
@@ -7,11 +7,11 @@ const twoWallets = () => {
   return (
     <div id="holderDiv">
       <div id="pictureOne" style={{ maxWidth: "500px" }}>
-        <Image2 />
+        <img src={"/1st banner img.jpg"} alt="tired" />
       </div>
       <div id="descriptionOne">
         <div className="container">
-          <h1>The Wallet, RedefinedImsoTired</h1>
+          <h1>The Wallet, RedefinedWhat time issit</h1>
 
           <p>The best way to carry your cash and cards since, well, ever.</p>
           <button>Shop Now</button>
