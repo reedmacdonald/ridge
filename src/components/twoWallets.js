@@ -1,17 +1,18 @@
 import React from "react"
 import Image2 from "../components/image2"
 import Image3 from "../components/image3"
+import FirstImage from "../images/1st banner img.jpg"
 import "./twoWallets.css"
 
 const twoWallets = () => {
   return (
     <div id="holderDiv">
       <div id="pictureOne" style={{ maxWidth: "500px" }}>
-        <Image2 />
+        <img src={FirstImage} />
       </div>
       <div id="descriptionOne">
         <div className="container">
-          <h1>The Wallet, Redefined1</h1>
+          <h1>The Wallet, RedefinedFuck It</h1>
 
           <p>The best way to carry your cash and cards since, well, ever.</p>
           <button>Shop Now</button>
