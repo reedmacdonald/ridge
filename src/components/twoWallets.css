@@ -1,0 +1,34 @@
+#holderDiv {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+#pictureOne {
+  grid-area: 1 / 2 / 2 / 3;
+}
+#descriptionOne {
+  grid-area: 1 / 1 / 2 / 2;
+  position: relative;
+}
+#pictureTwo {
+  grid-area: 2 / 1 / 3 / 2;
+}
+#descriptionTwo {
+  grid-area: 2 / 2 / 3 / 3;
+  position: relative;
+}
+button {
+  background-color: limegreen;
+  border: 0px;
+  font-size: 15px;
+  color: white;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
